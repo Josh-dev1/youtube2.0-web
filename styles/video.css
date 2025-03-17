@@ -48,6 +48,17 @@
     row-gap: 30px;
 }
 
+ /* Responsive Design */
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+            .sidebar,
+            .main {
+                width: 100%;
+            }
+        }
+
 .video-time {
     background-color: black;
     color: white;
